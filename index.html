@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css">
+    <TITle>Calculate</TITle>
+</head>
+
+<body>
+
+    <marquee behavior="scroll" direction="left" bgcolor="yellow" class="marquee" scrollamount="15" height="40px">Welcome To My
+        Website</marquee>
+        
+        <!-- <h1 class="head">Calculator</h1> -->
+        <img src="./calculator.png" class="img"><br>
+    <div class="inputs">
+        <br>
+        <hr>
+        <input type="text" id="a" class="inp" placeholder="1st number"><br><br>
+        <input type="text" id="b" class="inp" placeholder="2nd number">
+    </div>
+
+    <br>
+
+    <div class="buttons">
+        <button type="button" class="btn" onclick="add()">Add</button>
+        <button type="button" class="btn" onclick="sub()">Subtract</button>
+        <button type="button" class="btn" onclick="div()">Divide</button>
+        <button type="button" class="btn" onclick="mult()">Multiply</button>
+    </div>
+
+    <br>
+
+    <div class="screen" id="screen1"><small class="here">Ans here</small></div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
