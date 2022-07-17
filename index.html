@@ -11,29 +11,30 @@
 
 <body>
 
-    <marquee behavior="scroll" direction="left" bgcolor="yellow" class="marquee" scrollamount="15" height="40px">Calculator</marquee>
+    <marquee behavior="scroll" direction="left" bgcolor="orange" class="marquee" scrollamount="15" height="40px"><i>Calculator</i></marquee>
         
         <!-- <h1 class="head">Calculator</h1> -->
-        <img src="./calculator.png" class="img"><br>
+    <div class="full">   
+        <img src="./calculator.jpeg" class="img"><br>
     <div class="inputs">
-        <br>
-        <hr>
-        <input type="text" id="a" class="inp" placeholder="1st number"><br><br>
-        <input type="text" id="b" class="inp" placeholder="2nd number">
+        <hr><br><br><br>
+        <input type="number" id="a" class="inp" placeholder="1st number">
+        <input type="number" id="b" class="inp" placeholder="2nd number">
     </div>
 
-    <br>
+    <br><br><hr><br>
 
     <div class="buttons">
-        <button type="button" class="btn" onclick="add()">Add</button>
-        <button type="button" class="btn" onclick="sub()">Subtract</button>
-        <button type="button" class="btn" onclick="div()">Divide</button>
-        <button type="button" class="btn" onclick="mult()">Multiply</button>
+        <button type="button" class="btn" onclick="add()">[ &#43 ]</button>
+        <button type="button" class="btn" onclick="sub()">[ &#8722 ]</button>
+        <button type="button" class="btn" onclick="div()">[ &#xF7 ]</button>
+        <button type="button" class="btn" onclick="mult()">[ &#xd7 ]</button>
     </div>
 
-    <br>
+    <hr><br>
 
-    <div class="screen" id="screen1"><small class="here">Ans here</small></div>
+    <div class="screen" id="screen1"><small class="here"><b>ANSWER</b></small></div>
+    </div>
 
     <script src="./main.js"></script>
 </body>
